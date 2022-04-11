@@ -1,0 +1,135 @@
+
+body {
+    background-color: #add8e6;
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  a {
+    color: darkblue;
+    font-weight: lighter;
+  }
+  header {
+    background-color: #737373;
+    color: white;
+    height: 65px;
+    width: auto;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    padding: 19px;
+    list-style: none;
+  }
+  #menu-top {
+    padding: 0px;
+  }
+  header img {
+    position: absolute;
+    top: 25px;
+    left: 49px;
+  }
+  a:hover {
+    color: aqua;
+  }
+  
+  .generic-article {
+    position: relative;
+    /* left: 550px; */
+    text-align: center;
+    margin-bottom: 35px;
+    /* padding-top: 35px; */
+    width: 350px;
+    border: 3px solid black;
+    padding-bottom: 0;
+    padding-top: 0;
+    box-shadow: 0 7px 13px -5px gray;
+  }
+  
+  .leftbox {
+    float: left;
+    padding-top: 35px;
+    /* background: red; */
+    /* width: 30%; */
+    /* height: 280px; */
+  }
+  .middlebox {
+    float: left;
+    padding-top: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* background: green; */
+    /* width: 40%; */
+    /* height: 280px; */
+  }
+  .rightbox {
+    float: left;
+    padding-top: 35px;
+    /* background: blue; */
+    /* width: 30%; */
+    /* height: 280px; */
+  }
+  
+  #author{
+      font-style: italic;
+      padding-left: 6px;
+      text-align: left;
+  }
+  #best-players ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      list-style: none;
+  }
+  #best-players{
+      position: relative;
+      /* left: 970px; */
+      width: 350px;
+      border: 3px solid black;
+      box-shadow: 0 7px 13px -5px gray;
+      /* margin-left: 35px; */
+  
+  }
+  #best-players img{
+      position: relative;
+      left: -87px;
+      top: -11px;
+  }
+  #table-best-shooters {
+      position: relative;
+      left: 85px;
+      height: 80px;
+  }
+  #table-best-rebounders {
+      position: relative;
+      left: 85px;
+      height: 80px;
+  }
+  #table-best-passers {
+      position: relative;
+      left: 85px;
+      height: 80px;
+  }
+  section h3{
+      position: relative;
+      padding: 35px;
+      margin: 15px;
+      width: 33%;
+      background-color: rgb(189, 29, 29);
+      text-align: center;
+      width: 350px;
+  }
+  section h1{
+      position: relative;
+      margin: 15px;
+  }
+  #win{
+      background-color: #AAFF00;
+      margin: 15px;
+      text-align: center;
+  }
